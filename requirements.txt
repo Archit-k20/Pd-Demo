@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+joblib
+tensorflow>=2.10
+uvicorn[standard]
+fastapi
+streamlit
+matplotlib
+shap
+requests

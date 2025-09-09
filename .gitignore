@@ -1,0 +1,128 @@
+# =========
+# Python / bytecode
+# =========
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+
+# =========
+# Virtual environments
+# =========
+# common names for virtualenvs
+venv/
+.venv/
+env/
+ENV/
+venv_win/
+venv32/
+venv64/
+
+# =========
+# Distribution / packaging
+# =========
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# =========
+# OS files
+# =========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========
+# Editor / IDE
+# =========
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========
+# Jupyter
+# =========
+.ipynb_checkpoints/
+
+# =========
+# Logs and local runtime files
+# =========
+*.log
+logs/
+*.pid
+*.seed
+*.cover
+coverage.xml
+
+# =========
+# Data / generated artifacts
+# =========
+# Ignore large or generated datasets by default. If you want to track small CSVs
+# (e.g. for demos), remove the specific file(s) below or add !data/<file>.csv
+data/*.csv
+data/*.npy
+data/*.npz
+data/*.h5
+
+# Keep the generator script but ignore generated outputs:
+# data/generate_synthetic.py   <-- keep tracked (it's not ignored by above)
+# Generated folders
+/mnt/
+/tmp/
+
+# =========
+# Model artifacts & ML outputs
+# =========
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/scaler.pkl
+models/*.joblib
+models/*.model
+models/training_history.csv
+explain/*.png
+explain/*.svg
+
+# MLflow / experiment tracking artifacts
+mlruns/
+mlruns/*.zip
+
+# =========
+# Secrets / config
+# =========
+.env
+.env.*
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# =========
+# Docker / Compose
+# =========
+docker-compose.override.yml
+**/Dockerfile.*
+*.local
+
+# =========
+# Python test / cache
+# =========
+.pytest_cache/
+nosetests.xml
+coverage/
+
+# =========
+# Misc
+# =========
+*.bak
+*.swp
+*.tmp
+*.old
+*.orig
